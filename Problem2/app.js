@@ -28,7 +28,7 @@ const Product = mongoose.model("Product", productSchema);
 function getData() {
     const companies = ['AMZ', 'FLP', 'SNP', 'MYN', 'AZO']; 
     const products = ['Laptop', 'Phone', 'Computer', 'TV', 'Earphone', 'Tablet', 'Charger', 'Mouse', 'Keypad', 'Bluetooth', 'Pendrive', 'Remote', 'Speaker', 'Headset', 'PC']; 
-    const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzI0MTYxOTM2LCJpYXQiOjE3MjQxNjE2MzYsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImNmOGE2MjA2LWQyZjItNGI5Zi1hNDQwLTUwZTA4MWNlMDM1YiIsInN1YiI6ImFudXJhZ2QyNzVAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiYnV5LXNtYXJ0IiwiY2xpZW50SUQiOiJjZjhhNjIwNi1kMmYyLTRiOWYtYTQ0MC01MGUwODFjZTAzNWIiLCJjbGllbnRTZWNyZXQiOiJmUWhoVmt0SU1sR3NTWkdNIiwib3duZXJOYW1lIjoiQW51cmFnIER1YmV5Iiwib3duZXJFbWFpbCI6ImFudXJhZ2QyNzVAZ21haWwuY29tIiwicm9sbE5vIjoiMjEwMDU2MDEwMDAzMyJ9.rvyVuP7FWn0KFoKLE8zxFLaG1qa251J7Y_l8ByLv4MQ';
+    const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOniZXhwIjoxNzI0MTYxOTM2LCJpYXQiOjE3MjQxNjE2MzYsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImNmOGE2MjA2LWQyZjItNGI5Zi1hNDQwLTUwZTA4MWNlMDM1YiIsInN1YiI6ImFudXJhZ2QyNzVAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiYnV5LXNtYXJ0IiwiY2xpZW50SUQiOiJjZjhhNjIwNi1kMmYyLTRiOWYtYTQ0MC01MGUwODFjZTAzNWIiLCJjbGllbnRTZWNyZXQiOiJmUWhoVmt0SU1sR3NTWkdNIiwib3duZXJOYW1lIjoiQW51cmFnIER1YmV5Iiwib3duZXJFbWFpbCI6ImFudXJhZ2QyNzVAZ21haWwuY29tIiwicm9sbE5vIjoiMjEwMDU2MDEwMDAzMyJ9.rvyVuP7FWn0KFoKLE8zxFLaG1qa251J7Y_l8ByLv4MQ';
 
     companies.forEach(company => {
         products.forEach(product => {
